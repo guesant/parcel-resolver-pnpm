@@ -1,0 +1,23 @@
+{
+  "name": "parcel-resolver-pnpm",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": "https://github.com/guesant/parcel-resolver-pnpm.git",
+  "main": "lib/PNPMResolver.js",
+  "source": "src/PNPMResolver.ts",
+  "scripts": {
+    "build": "tsc -p .",
+    "prepare": "npm run build"
+  },
+  "engines": {
+    "node": ">= 12.0.0",
+    "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "@parcel/node-resolver-core": "^2.0.1",
+    "@parcel/plugin": "^2.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
